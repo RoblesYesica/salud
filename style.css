@@ -1,4 +1,8 @@
-
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #DFF6FF
+}
 section{
     padding: 180px 0 ;
 }
@@ -53,11 +57,7 @@ h3{
 }
 
 /**estilos de inicio de sesion**/
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #DFF6FF
-  }
+
 .login-box {
     width: 320px;
     height: 420px;
@@ -125,8 +125,13 @@ body {
     font-size: 12px;
     line-height: 20px;
     color: rgb(236, 247, 250);
+    /*padding: 50px;*/
+   
   }
   
   .login-box a:hover {
     color: #fff;
+
   }
+
+  
