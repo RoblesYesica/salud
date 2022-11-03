@@ -28,6 +28,9 @@
                 <a class="nav-link mx-5" aria-current="page" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link mx-5" aria-current="page" href="#funcionalidad">Funcionalidad</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link mx-5" href="#nosotros">Nosotros </a>
               </li>
               <li class="nav-item">
@@ -44,6 +47,7 @@
     </nav>
 
 <section id="inicio" class="inicio">
+ 
     <div class="container my-5">
         <h1 class="titulo pt-5"> Bienvenido a tu Historia Clínica Digital</h1>
         <h3 class="subtitulo">Gestión de Historias Clínicas Digitales que funciona de manera rapida y eficiente</h3>
@@ -52,21 +56,34 @@
       <a href="pacienteSesion.html" target="_blank"> <button  type="button" class="btn btn-secondary btn-lg ">PACIENTE</button></a> 
         </div>
     </div>
-    
+ 
 </section>
 
-<section id="nosotros">
+<section id="funcionalidad" class="funcionalidad">
+  <ul >
+    <li ><strong>Permitir a los médicos organizar de manera sencilla y rápida, toda la información de sus pacientes</strong></li>  
+    <li ><strong>Brindar a los pacientes acceso a su Historia Clinica en Linea</strong></li>
+    <li ><strong>Sumar en la relación médico-paciente-información</strong></li>
+    <li ><strong>Impactar en el cuidado de su salud y la de su familia</strong></li>
+    <li ><strong>Acceder a su informacion desde cualquier lugar</strong></li>
+  </ul>
+
+</section>
+
+<section id="nosotros" class="nosotros">
     <div class="container-fluid">
         <div class="row no-gutters">
           
             <div class="col-md-7">
-                <div class="card-body text-justify"> 
+                <div class="container-nosotros"> 
                  
-               <p > Somos estudiantes de la Universidad Nacional de Córdoba, integrantes del proyecto Programando futuros
-                Creemos que es de suma importancia contar en centros de salud con una plataforma que mantenga a todos los usuarios
-                 cerca de la información. También sostenemos en que esta 
-                debe ser de fácil y ágil acceso para de esta forma hacer cada vez más eficiente y productivo el sistema de atención.
-                  </p>
+               <p ><strong> Somos estudiantes de la Universidad Nacional de Córdoba, integrantes del proyecto Programando futuros
+                creemos que es de suma importancia contar en centros de salud con una plataforma que mantenga a todos los usuarios
+                 cerca de la información. También sostenemos en que ésta 
+                debe ser de fácil y ágil acceso para que de esta forma hacer cada vez más eficiente y productivo el sistema de atención.
+                La medicina evoluciona y la llegada de la tecnología puede beneficiar y sumar en la relación 
+                médico-paciente-información, y por lo tanto puede impactar en el cuidado de su salud y la de su familia.
+              </strong> </p>
                 </div>
               </div>
               <div class="col-md-5" >
@@ -133,7 +150,7 @@
   </div>
 </section>
 
-<section id="contacto">
+<section id="contacto" class="contacto">
   <div class="row no-gutters">
           
     <div class="col-md-7">
@@ -165,11 +182,47 @@
 
 </section>
 
+
+
 <section>
-  <div id="map" class="text-center">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13621.089602410217!2d-64.20698050292583!3d-31.4066201770134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitales%20de%20cordoba!5e0!3m2!1ses!2sar!4v1667336444708!5m2!1ses!2sar" 
-   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <div class="mapas">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000" >
+        <div id="map" class="text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13619.979339310587!2d-64.18658667822221!3d-31.414268390577448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitales%20de%20cordoba!5e0!3m2!1ses!2sar!4v1667454486209!5m2!1ses!2sar" width="600" height="450" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+        
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div id="map-farmacias" class="text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13619.617669993184!2d-64.1889041032445!3d-31.41675944287304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfarm%C3%A1cias%20de%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1667454267435!5m2!1ses!2sar" width="600" height="450" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>    
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+</div>
+
+  </section>
+  <section class="final">
+    <div>
+
+    </div>
   </section>
 
 <!-- JavaScript Bundle with Popper -->

@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #DFF6FF
+  background-color: #DFF6FF;
+  color: #093c50;
 }
 section{
     padding: 180px 0 ;
 }
 .nav-link {color:#ffffff;
-    ;}
+    }
 .logo-brand{
     min-width: 60px;
     max-width: 80px;
@@ -18,7 +19,38 @@ section{
     padding-top: 90px;
     min-height: 500px;
     color:#ffffff;
+    animation:movimiento 10s infinite linear alternate;
 }
+.funcionalidad{
+  font-size: 25px;
+  background-image: url('/img/med.jpg');
+  background-size: cover;
+  text-align: justify;
+  
+ 
+}
+.container-nosotros{
+  padding: 10px;
+  background-color:honeydew;
+  text-align: justify;
+  max-width: 800px;
+  border-radius: 40px;
+  color: #093c50;
+  margin:10px 20px 40px 20px;
+  font-size: 20px;
+}
+.contacto{
+  margin-left: 60px ;
+}
+
+@keyframes movimiento{
+  from{
+     background-position: bottom left;
+  }to{
+    background-position: top right;
+  }
+}
+
 h1{
     text-transform:uppercase;
     color: #093c50;
@@ -36,6 +68,10 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     }
+  p{
+    color: #093c50;
+    
+  }
 .container-boton{
     text-align:center;
     margin-top: 120px;
@@ -55,7 +91,19 @@ h3{
     min-height: 400px;
     color:#ffffff;
 }
-
+.contacto{
+  margin-bottom: 3px;
+}
+.mapas{
+  
+ margin-top: -200px;
+}
+.final{
+  background-color:#0c42f1;
+	height: 50%;
+  padding: 45px;
+ 
+}
 /**estilos de inicio de sesion**/
 
 .login-box {
