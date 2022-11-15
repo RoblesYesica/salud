@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #DFF6FF;
-  color: #093c50;
+  
 }
 section{
     padding: 180px 0 ;
@@ -75,6 +75,10 @@ h3{
 .container-boton{
     text-align:center;
     margin-top: 120px;
+}
+
+.nosotros{
+  background-color:skyblue;
 }
 .img-nosotros:hover{
     transform:scale(0.9);
@@ -187,7 +191,7 @@ h3{
     height: 500px;
     background: #06283D;
     color: #fff;
-    top: 50%;
+    top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);

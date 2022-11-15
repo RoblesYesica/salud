@@ -11,7 +11,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #06283D;
+    background-color:#0c42f1;
+   /* background-color: #06283D;*/
   }
   li {
     float: left ;
@@ -25,7 +26,8 @@ ul {
   }
   
   li a:hover {
-    background-color: #06283D;
+    background-color:#0c42f1;
+    /*background-color: #06283D;*/
   }
   .volver{
     float: right ;
